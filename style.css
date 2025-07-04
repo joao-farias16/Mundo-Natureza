@@ -69,3 +69,29 @@ body {
   color: white;
   padding: 1em;
 }
+
+.formulario-contato {
+  padding: 2em;
+  background-color: #e6f5e6;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 1em;
+}
+
+input, select, textarea {
+  padding: 0.5em;
+  border: 1px solid #aaa;
+  border-radius: 5px;
+}
+
+button {
+  padding: 0.8em;
+  background-color: #008000;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}

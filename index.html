@@ -35,5 +35,28 @@
   <div>Contato</div>
   <div>Redes sociais</div>
 </footer>
+
+<section class="formulario-contato">
+  <h2>Entre em Contato</h2>
+  <form id="form">
+    <input type="text" name="nome" placeholder="Nome completo" required />
+    <input type="text" name="cpf" placeholder="CPF" />
+    <input type="date" name="data_nasc" />
+    <input type="email" name="email" placeholder="Email" required />
+    <input type="tel" name="telefone" placeholder="Telefone" />
+    <select name="assunto">
+      <option value="">Selecione o assunto</option>
+      <option value="dúvida">Dúvida</option>
+      <option value="sugestão">Sugestão</option>
+      <option value="elogio">Elogio</option>
+    </select>
+    <textarea name="mensagem" placeholder="Mensagem" required></textarea>
+    <label>
+      <input type="checkbox" name="termos" required />
+      Aceito os termos
+    </label>
+    <button type="submit">Enviar</button>
+  </form>
+</section>
 </body>
 </html>
