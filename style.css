@@ -51,6 +51,26 @@ body {
   background: #defade;
   padding: 1em;
   border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  text-align: center;
+  transition: transform 0.3s;
+}
+
+.card:hover {
+  transform: scale(1.03);
+}
+
+.card img {
+  width: 100%;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 6px;
+  margin-bottom: 0.5em;
+}
+
+.card h3 {
+  font-size: 1.1em;
+  color: #1a421a;
 }
 
 .aside-info {
