@@ -33,3 +33,31 @@ body {
 .nav-links a:hover {
   color: lightgreen;
 }
+
+.conteudo {
+  display: grid;
+  grid-template-columns: 3fr 1fr;
+  gap: 20px;
+  padding: 2em;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  gap: 1em;
+}
+
+.card {
+  background: #defade;
+  padding: 1em;
+  border-radius: 8px;
+}
+
+.aside-info {
+  display: flex;
+  flex-direction: column;
+  gap: 1em;
+  background-color: #f0fff0;
+  padding: 1em;
+  border-radius: 8px;
+}
