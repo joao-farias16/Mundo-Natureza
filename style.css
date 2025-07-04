@@ -95,3 +95,25 @@ button {
   border-radius: 5px;
   cursor: pointer;
 }
+
+@media (max-width: 768px) {
+  .conteudo {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .banner {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .nav-links {
+    margin-top: 1em;
+  }
+
+  .footer {
+    flex-direction: column;
+    text-align: center;
+    gap: 1em;
+  }
+}
