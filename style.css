@@ -7,3 +7,29 @@
 body {
   font-family: Arial, sans-serif;
 }
+
+.banner {
+  background-image: url('Img/Natureza.jpg');
+  background-size: cover;
+  background-position: center;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1em;
+}
+
+.logo {
+  height: 50px;
+}
+
+.nav-links a {
+  margin-left: 1em;
+  color: white;
+  text-decoration: none;
+  transition: color 0.3s;
+}
+
+.nav-links a:hover {
+  color: lightgreen;
+}
